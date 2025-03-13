@@ -6,7 +6,6 @@ export function App() {
       {/* Navbar  */}
       <Navbar />
       <p>Home</p>
-      <p className="relative z-100" >Home</p>
       {/* Breadcrumb  */}
       {/* Introduction  */}
       {/* Featured Posts  */}
