@@ -1,5 +1,6 @@
 
 import { MdOutlineLogin } from "react-icons/md";
+import { Link } from "react-router";
 
 interface MobileMenuListProps {
   children?: React.ReactNode;
@@ -16,10 +17,10 @@ export default function MobileMenuList({ open }: MobileMenuListProps) {
       ${open ? "translate-x-0" : "translate-x-full"}
     `}
     >
-      <li>Trending</li>
-      <li>Popular</li>
-      <li>About</li>
-      <li><button className="flex items-center" > <MdOutlineLogin />Login </button></li>
+      <Link to="/trending">Trending</Link>
+      <Link to="/popular">Popular</Link>
+      <Link to="/my">My FOs</Link> 
+      <Link to="/login"><button className="flex items-center" > <MdOutlineLogin />Login </button></Link>
     </ul>
   );
 }
