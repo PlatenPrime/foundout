@@ -1,7 +1,12 @@
-import React from 'react'
+import { SignIn } from "@clerk/clerk-react";
 
-export  function LoginPage() {
+export function LoginPage() {
   return (
-    <div>LoginPage</div>
-  )
+    <div className=" h-screen grid place-content-center">
+      <SignIn
+     
+        signUpUrl="/register"
+      />
+    </div>
+  );
 }

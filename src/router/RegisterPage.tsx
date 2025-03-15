@@ -1,3 +1,10 @@
+import { SignUp } from "@clerk/clerk-react";
+
 export function RegisterPage() {
-  return <div>RegisterPage</div>;
+  return (
+    <div className=" h-screen grid place-content-center">
+
+      <SignUp  signInUrl="/login" />
+    </div>
+  );
 }

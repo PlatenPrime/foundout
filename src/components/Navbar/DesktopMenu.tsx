@@ -7,13 +7,13 @@ export default function DesktopMenu() {
       <Link to="/trending">Trending</Link>
       <Link to="/popular">Popular</Link>
       <Link to="/my">My FOs</Link> 
-      <li>
+      <Link to="/login">
         <button className="flex items-center py-2 px-4 rounded-xl bg-blue-800 cursor-pointer ">
           {" "}
           <MdOutlineLogin />
           Login{" "}
         </button>
-      </li>
+      </Link>
     </ul>
   );
 }

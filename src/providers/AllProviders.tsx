@@ -1,7 +1,9 @@
+import { AuthProvider } from "./AuthProvider";
+
 interface AllProvidersProps {
   children?: React.ReactNode;
 }
 
 export function AllProviders({ children }: AllProvidersProps) {
-  return <>{children}</>;
+  return <AuthProvider>{children}</AuthProvider>;
 }
