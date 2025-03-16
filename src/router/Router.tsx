@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import { App } from "../App";
 import FOPage from "./FOPage";
-import { HomePage } from "./HomePage";
+import { HomePage } from "../pages/Home";
 import { LoginPage } from "./LoginPage";
 import { NewFOPage } from "./NewFOPage";
 import { PopularPage } from "./PopularPage";
