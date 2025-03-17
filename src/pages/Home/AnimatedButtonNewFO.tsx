@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function AnimatedButtonNewFO() {
   return (
-    <Link to="/new" className="relative ">
+    <Link to="/new" className="hidden md:block relative ">
       <svg
         viewBox="0 0 200 200"
         width={200}

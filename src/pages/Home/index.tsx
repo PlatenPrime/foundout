@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import MainCategories from "../../components/MainCategories/MainCategories";
 import AnimatedButtonNewFO from "./AnimatedButtonNewFO";
 import { Title } from "./Title";
 
@@ -15,6 +16,8 @@ export function HomePage() {
         <Title />
         <AnimatedButtonNewFO />
       </div>
+
+      <MainCategories />
     </div>
   );
 }
