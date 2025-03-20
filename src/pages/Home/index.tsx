@@ -3,6 +3,7 @@ import MainCategories from "../../components/MainCategories/MainCategories";
 import AnimatedButtonNewFO from "./AnimatedButtonNewFO";
 import { Title } from "./Title";
 import { FeaturedFounds } from "../../components/FeaturedFounds/FeaturedFounds";
+import { FoundList } from "../../components/FoundsList/FoundList";
 
 export function HomePage() {
   return (
@@ -20,6 +21,7 @@ export function HomePage() {
 
       <MainCategories />
       <FeaturedFounds />
+      <FoundList  /> 
     </div>
   );
 }
