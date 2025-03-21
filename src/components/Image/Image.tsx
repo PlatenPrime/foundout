@@ -4,12 +4,11 @@ interface ImageProps {
   src: string;
   className?: string;
   alt: string;
-  w?: number;
-  h?: number;
-
+  w?:  string;
+  h?:  string;
 }
 
-export  function Image({ src, className, alt, w, h }: ImageProps) {
+export function Image({ src, className, alt, w, h }: ImageProps) {
   return (
     <IKImage
       urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
@@ -20,6 +19,7 @@ export  function Image({ src, className, alt, w, h }: ImageProps) {
       lqip={{ active: true, quality: 20 }}
       width={w}
       height={h}
+      transformation={[{ width: w, height: h }]}
     />
   );
 }

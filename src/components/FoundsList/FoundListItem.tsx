@@ -10,6 +10,7 @@ export function FoundListItem() {
           src="design_4b0cb2f9-2cf6-446d-a114-cf3d1bf60f70_large.webp?updatedAt=1742447997364"
           alt="found"
           className="rounded-2xl object-cover"
+          w="735"
         />
       </div>
       <div className="flex flex-col gap-4 xl:w-2/3">

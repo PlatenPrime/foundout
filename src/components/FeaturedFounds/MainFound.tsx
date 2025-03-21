@@ -18,7 +18,7 @@ export default function MainFound({
 }: MainFoundProps) {
   return (
     <div className="w-full lg:w-1/2 flex flex-col gap-4">
-      <Image src={imageSrc} className="rounded-3xl object-cover" alt="found" />
+      <Image src={imageSrc} className="rounded-3xl object-cover" alt="found" w="895" />
       <div className="flex items-center gap-4">
         <h2 className="font-simibold lg:text-lg">{order}</h2>
         <Link className="text-blue-200 lg:text-lg" to="/fos">
