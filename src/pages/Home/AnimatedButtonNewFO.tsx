@@ -14,10 +14,9 @@ export default function AnimatedButtonNewFO() {
           d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
           fill="none"
           strokeLinecap="round"
-          
         />
-        <text fill="white" >
-          <textPath  href="#circlePath" startOffset={"50%"}>
+        <text fill="white">
+          <textPath href="#circlePath" startOffset={"50%"}>
             Create NEW FoudtOut
           </textPath>
           <textPath href="#circlePath " startOffset={"0%"}>
@@ -25,11 +24,13 @@ export default function AnimatedButtonNewFO() {
           </textPath>
         </text>
       </svg>
-      <button className="absolute inset-15  border border-white hover:bg-white/30    rounded-full grid place-content-center 
+      <button
+        className="absolute inset-15  border border-white hover:bg-white/30    rounded-full grid place-content-center 
       transition-all duration-300 ease-in-out
       cursor-pointer
       
-      ">
+      "
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

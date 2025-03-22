@@ -18,16 +18,14 @@ export default function SideFound({
 }: SideFoundProps) {
   return (
     <div className="w-full lg:h-1/3  flex  gap-2">
-      <div className=" w-1/3 aspect-video" >
-      <Image
-        src={imageSrc}
-        className="rounded-3xl object-cover w-full h-full "
-        alt="found"
-        w="298"
-  
-      />
+      <div className=" w-1/3 aspect-video">
+        <Image
+          src={imageSrc}
+          className="rounded-3xl object-cover w-full h-full "
+          alt="found"
+          w="298"
+        />
       </div>
-     
 
       <div className="flex flex-col w-2/3">
         <div className="flex  items-center gap-4 text-sm lg:text-base">

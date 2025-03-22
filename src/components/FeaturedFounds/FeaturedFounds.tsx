@@ -24,22 +24,20 @@ export function FeaturedFounds() {
           title="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           date="5 days ago"
         />
-          <SideFound
+        <SideFound
           imageSrc="logo.jpg?updatedAt=1741764157100"
           order="03."
           category="Frontend"
           title="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           date="5 days ago"
         />
-          <SideFound
+        <SideFound
           imageSrc="logo.jpg?updatedAt=1741764157100"
           order="04."
           category="Frontend"
           title="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           date="5 days ago"
         />
-
-
 
         {/* FOUND END */}
       </div>
