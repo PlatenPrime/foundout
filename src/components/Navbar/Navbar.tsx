@@ -9,6 +9,7 @@ export default function Navbar() {
     flex items-center justify-between 
     bg-blue-500 p-2
     text-white
+    xl:px-20
     "
     >
       <Logo />
