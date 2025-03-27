@@ -1,3 +1,4 @@
+import FoundComments from "./components/FoundComments";
 import { FoundHeader } from "./components/FoundHeader";
 import { FoundMenu } from "./components/FoundMenu";
 import { FoundText } from "./components/FoundText";
@@ -10,6 +11,7 @@ export function FoundPage() {
         <FoundText />
         <FoundMenu />
       </div>
+      <FoundComments />
     </div>
   );
 }
