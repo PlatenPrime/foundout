@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import { App } from "../App";
 import { FoundPage } from "../pages/Found";
 import { HomePage } from "../pages/Home";
+import { NewFoundPage } from "../pages/New";
 import { LoginPage } from "./LoginPage";
 import { MyFOsPage } from "./MyFOsPage";
-import { NewFOPage } from "./NewFOPage";
 import { PopularPage } from "./PopularPage";
 import { RegisterPage } from "./RegisterPage";
 import { TrendingPage } from "./TrendingPage";
@@ -15,7 +15,7 @@ export function Router() {
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/new" element={<NewFOPage />} />
+          <Route path="/new" element={<NewFoundPage />} />
           <Route path="/popular" element={<PopularPage />} />
           <Route path="/trending" element={<TrendingPage />} />
           <Route path="/my" element={<MyFOsPage />} />
