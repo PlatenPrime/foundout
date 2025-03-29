@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Image } from "../Image/Image";
+import { Image } from "../../../../components/Image/Image";
 
 export function FoundListItem() {
   return (

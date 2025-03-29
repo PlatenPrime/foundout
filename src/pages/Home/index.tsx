@@ -1,8 +1,8 @@
 import { Link } from "react-router";
-import { FeaturedFounds } from "../../components/FeaturedFounds/FeaturedFounds";
-import { FoundList } from "../../components/FoundsList/FoundList";
-import MainCategories from "../../components/MainCategories/MainCategories";
-import AnimatedButtonNewFO from "./AnimatedButtonNewFO";
+import { AnimatedButtonNewFound } from "./AnimatedButtonNewFound";
+import { FeaturedFounds } from "./components/FeaturedFounds";
+import { FoundList } from "./components/FoundsList/FoundList";
+import { MainCategories } from "./components/MainCategories";
 import { Title } from "./Title";
 
 export function HomePage() {
@@ -16,7 +16,7 @@ export function HomePage() {
 
       <div className="flex items-center justify-between">
         <Title />
-        <AnimatedButtonNewFO />
+        <AnimatedButtonNewFound />
       </div>
 
       <MainCategories />

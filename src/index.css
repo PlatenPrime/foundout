@@ -19,3 +19,36 @@ body {
 .animatedButton {
     animation-duration: 10000ms;
 }
+
+.ql-container {
+   border: none !important;
+}
+
+
+.ql-toolbar.ql-snow {
+    border: none !important;
+}
+
+.ql-snow .ql-picker-label {
+    cursor: row-resize !important;
+ color: white !important;
+}
+
+.ql-snow .ql-stroke {
+    stroke: #ffffff !important;
+}
+
+
+.ql-snow .ql-fill, .ql-snow .ql-stroke.ql-fill {
+    fill: #ffffff !important;
+}
+
+
+.ql-snow.ql-toolbar button:hover .ql-stroke {
+    stroke: #f77979 !important;
+}
+
+.ql-snow.ql-toolbar button:active .ql-stroke {
+    stroke: #f77979 !important;
+}
+
