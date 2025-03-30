@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { AnimatedButtonNewFound } from "./AnimatedButtonNewFound";
 import { FeaturedFounds } from "./components/FeaturedFounds";
-import { FoundList } from "./components/FoundsList/FoundList";
+import { FoundList } from "./components/FoundsList";
 import { MainCategories } from "./components/MainCategories";
 import { Title } from "./Title";
 

@@ -20,35 +20,51 @@ body {
     animation-duration: 10000ms;
 }
 
+
+/* Get rid of borders */
 .ql-container {
    border: none !important;
 }
-
-
-.ql-toolbar.ql-snow {
+.ql-toolbar {
+    border: none !important;
+}
+.ql-editor{
     border: none !important;
 }
 
+
+
+/* Initial colors of buttons */
 .ql-snow .ql-picker-label {
-    cursor: row-resize !important;
  color: white !important;
 }
-
 .ql-snow .ql-stroke {
     stroke: #ffffff !important;
 }
-
-
 .ql-snow .ql-fill, .ql-snow .ql-stroke.ql-fill {
     fill: #ffffff !important;
 }
 
 
+/* Hover state of buttons */
 .ql-snow.ql-toolbar button:hover .ql-stroke {
-    stroke: #f77979 !important;
+    stroke: #37bbf8 !important;
+}
+.ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill {
+    stroke: #37bbf8 !important;
+}
+.ql-snow.ql-toolbar button:hover .ql-fill {
+    stroke: #37bbf8 !important;
 }
 
-.ql-snow.ql-toolbar button:active .ql-stroke {
-    stroke: #f77979 !important;
-}
 
+/* Active state of buttons */
+.ql-snow.ql-toolbar button.ql-active .ql-stroke {
+    stroke: #3791f8 !important;
+}
+.ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill {
+    stroke: #3791f8  !important;
+}
+.ql-snow.ql-toolbar button.ql-active .ql-fill {
+    stroke: #3791f8  !important;
+}

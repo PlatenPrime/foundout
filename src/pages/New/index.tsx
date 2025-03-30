@@ -52,7 +52,7 @@ export function NewFoundPage() {
           onChange={setValue}
           className="flex-1  rounded-xl bg-white/20 shadow-md "
         />
-        <button>Send</button>
+        <button className= "w-max bg-blue-500 rounded-xl py-3 px-4 text-white font-medium" >Send</button>
       </form>
     </div>
   );
